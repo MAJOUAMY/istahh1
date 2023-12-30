@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="{{ asset('logo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('fivicon.png') }}">
     <title>ISTA HH1 </title>
 
     <!-- Css Files -->
@@ -36,7 +36,7 @@
                         <div class="col-md-12">
                             <div class="wm-language">
                                 <ul>
-                                    <li><a href="#">français</a></li>
+                                    <li><a href="{{ route("home") }}">français</a></li>
                                     <li><a href="#">arabe</a></li>
                                 </ul>
                             </div>
@@ -50,7 +50,7 @@
                                     <a href="#" data-toggle="modal" data-target="#ModalLogin">login</a>
                                 </li>
                                 <li>
-                                    <a href="#">Contact</a>
+                                    <a href="{{ route('contact') }}">Contact</a>
                                 </li>
                                 <li>
                                     <a href="#" class="wm-search-btn" data-toggle="modal"
@@ -67,7 +67,7 @@
             <div class="wm-main-header">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 "><a href="" class="wm-logo"><img src="{{ asset('logo.png') }}"
+                        <div class="col-md-3 "><a href="{{ route("home") }}" class="wm-logo"><img src="{{ asset('logo.png') }}"
                                     alt=""></a></div>
                         <div class="col-md-9">
                             <!--// Navigation \\-->
@@ -83,17 +83,17 @@
                                 </div>
                                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
                                     <ul class="nav navbar-nav">
-                                        <li class="active"><a href="#"> ACCUEIL</a>
+                                        <li class="active"><a href="{{ route("home") }}"> ACCUEIL</a>
 
                                         </li>
-                                        <li><a href="#">MODULES</a>
+                                        <li><a href="{{ route("module") }}">MODULES</a>
 
                                         </li>
-                                        <li><a href="#">evenments</a>
+                                        <li><a href="{{ route("events") }}">evenments</a>
 
                                         </li>
 
-                                        <li class="wm-megamenu-li"><a href="#">articles</a>
+                                        <li class="wm-megamenu-li"><a href="{{ route("blog") }}">blog</a>
 
                                         </li>
                                         <li><a href="contact-us.html">formation</a>
@@ -103,14 +103,14 @@
                                                 <li><a href="shop-single-product.html">gestion et commerce</a></li>
                                             </ul>
                                         </li>
-                                        <li class="wm-megamenu-li"><a href="#">Contact</a>
+                                        <li class="wm-megamenu-li"><a href="{{ route('contact') }}">Contact</a>
 
                                         </li>
                                     </ul>
                                 </div>
                             </nav>
                             <!--// Navigation \\-->
-                            <a href="#" class="wm-header-btn">commancer</a>
+                            <a href="https://www.ofppt.ma/fr/inscription-en-ligne?utm_source=Bouton%20Inscription&utm_medium=CTA&utm_campaign=inscription" class="wm-header-btn">commancer</a>
                         </div>
                     </div>
                 </div>
@@ -118,31 +118,14 @@
             <!--// MainHeader \\-->
 
         </header>
-        <!--// Footer \\-->
-
-        <!--// Footer \\-->
-
+ 
 
         @yield('content')
+
+
         <footer id="wm-footer" class="wm-footer-one">
 
-            <!--// FooterNewsLatter \\-->
-            <div class="wm-footer-newslatter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <form>
-                                <i class="wmicon-interface2"></i>
-                                <input type="text" value="Enter your e-mail address"
-                                    onblur="if(this.value == '') { this.value ='Enter your e-mail address'; }"
-                                    onfocus="if(this.value =='Enter your e-mail address') { this.value = ''; }">
-                                <input type="submit" value="Subscribe to our newsletter">
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// FooterNewsLatter \\-->
+
 
             <!--// FooterWidgets \\-->
             <div class="wm-footer-widget">
@@ -170,39 +153,30 @@
                                 <h5>Quick Links</h5>
                             </div>
                             <ul>
-                                <li><a href="#">dirnere evenement </a></li>
+                                <li><a href="#">derniere evenement </a></li>
                                 <li><a href="#">Formation</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">FAQ</a></li>
+                                <li><a href="{{ route("about") }}">plus d'inforations</a></li>
+                                <li><a href="{{ route("faq") }}">FAQ</a></li>
 
-                                <li><a href="#">Notre Formateur</a></li>
+                                <li><a href="#"> Formateurs</a></li>
                             </ul>
                         </aside>
                         <aside class="widget widget_twitter col-md-4">
                             <div class="wm-footer-widget-title">
                                 <h5><i class="wmicon-social2"></i> @istahh1</h5>
+                                {{-- extrat links --}}
                             </div>
                             <ul>
                                 <li>
-                                    <p>Check Youniverse - Multipurpose PSD Template @ThemeForest: <a
-                                            href="#">pic.twitter.com/xcVlqJySjq</a></p>
-                                    <time datetime="2008-02-14 20:00" class="wm-color">2 hrs ago</time>
+                                    <p> site officiel d'office de formation prof et p travail <a
+                                            href="https://www.ofppt.ma/">ofppt.ma</a></p>
                                 </li>
-                                <li>
-                                    <p>Check out my New PSD: FashionPlus - Fashion eCommerce: <a
-                                            href="#">pic.twitter.com/xc445Ghyt</a></p>
-                                    <time datetime="2008-02-14 20:00" class="wm-color">4 hrs ago</time>
-                                </li>
-                                <li>
-                                    <p>MedicAid - Medical Template @ThemeForest: <a
-                                            href="#">pic.twitter.com/xcVlq542wfER</a></p>
-                                    <time datetime="2008-02-14 20:00" class="wm-color">1 day ago</time>
-                                </li>
+                                
                             </ul>
                         </aside>
                         <aside class="widget widget_gallery col-md-3">
                             <div class="wm-footer-widget-title">
-                                <h5>Our Instructors</h5>
+                                <h5>Nos Formateurs</h5>
                             </div>
                             <ul class="gallery">
                                 <li><a title="" data-rel="prettyPhoto[gallery1]"
