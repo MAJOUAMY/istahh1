@@ -36,7 +36,7 @@
                         <div class="col-md-12">
                             <div class="wm-language">
                                 <ul>
-                                    <li><a href="{{ route("home") }}">Spanish</a></li>
+                                    <li><a href="{{ route("home") }}">Francais</a></li>
                                     <li><a href="#">arabe</a></li>
                                 </ul>
                             </div>
@@ -89,7 +89,7 @@
                                         <li><a href="{{ route("module") }}">MODULES</a>
 
                                         </li>
-                                        <li><a href="{{ route("events") }}">evenments</a>
+                                        <li><a href="{{ route("events") }}">evenements</a>
 
                                         </li>
 
@@ -110,7 +110,7 @@
                                 </div>
                             </nav>
                             <!--// Navigation \\-->
-                            <a href="https://www.ofppt.ma/fr/inscription-en-ligne?utm_source=Bouton%20Inscription&utm_medium=CTA&utm_campaign=inscription" class="wm-header-btn">commancer</a>
+                            <a href="https://www.ofppt.ma/fr/inscription-en-ligne?utm_source=Bouton%20Inscription&utm_medium=CTA&utm_campaign=inscription" class="wm-header-btn">commencer</a>
                         </div>
                     </div>
                 </div>
