@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ asset('fivicon.png') }}">
-    <title> ZAKARIA changes ISTA HH1 </title>
+    <title> 360° ISTA HH1 </title>
 
     <!-- Css Files -->
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
