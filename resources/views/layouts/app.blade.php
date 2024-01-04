@@ -36,7 +36,7 @@
                         <div class="col-md-12">
                             <div class="wm-language">
                                 <ul>
-                                    <li><a href="{{ route("home") }}">français</a></li>
+                                    <li><a href="{{ route("home") }}">Spanish</a></li>
                                     <li><a href="#">arabe</a></li>
                                 </ul>
                             </div>
