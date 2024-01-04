@@ -388,31 +388,31 @@
             <div class="row">
                 
                 <div class="col-md-12">
-                    <div class="wm-fancy-title"> <h2>What <span>Clients Say</span></h2> <p>Don't take our word for it, see what our awesome clients say.</p> </div>
+                    <div class="wm-fancy-title"> <h2>Avis <span>des Clients</span></h2> <p>Ne prenez pas notre mot pour acquis, découvrez ce que disent nos clients formidables.</p> </div>
                     <div class="wm-testimonial-slider">
                         <div class="wm-testimonial-slider-wrap">
-                            <p>I chose them because it gave me flexibility. I was working full-time at the same time I was studying, so the OU gave me that flexibility. Also my Dad, I’m Danish of origin.</p>
+                            <p>Je les ai choisis parce que cela me donnait de la flexibilité. Je travaillais à plein temps en même temps que j'étudiais, donc l'OU m'a donné cette flexibilité. Aussi, mon père, je suis d'origine danoise.</p>
                             <figure>
                                 <a href="#" class="wm-testimonial-thumb"><img src="extra-images/testimonial-thumb-1.png" alt=""></a>
-                                <figcaption> <h5><a href="#">Priya E. Abraham</a></h5> <span>Paris, France</span> </figcaption>
+                                <figcaption> <h5><a href="#">Zakaria Hadraoui  </a></h5> <span>el oulfa , casablanca</span> </figcaption>
                             </figure>
                         </div>
                         <div class="wm-testimonial-slider-wrap">
-                            <p>After completing the MBA study, I had the opportunity to join one of the leading business schools in the UK in the role of faculty member and senior consultant. I suppose without the MBA it would have been difficult to make that career step. The biggest challenge in studying with them.</p>
+                            <p>Après avoir terminé mes études de MBA, j'ai eu l'opportunité de rejoindre l'une des principales écoles de commerce au Royaume-Uni en tant que membre du corps professoral et consultant principal. Je suppose qu'il aurait été difficile de faire ce pas dans ma carrière sans le MBA. Le plus grand défi en étudiant avec eux.</p>
                             <figure>
                                 <a href="#" class="wm-testimonial-thumb"><img src="extra-images/testimonial-thumb-2.png" alt=""></a>
-                                <figcaption> <h5><a href="#">Priya E. Abraham</a></h5> <span>Paris, France</span> </figcaption>
+                                <figcaption> <h5><a href="#">Ajouamy miloud  </a></h5> <span>dar bouazza , casablanca</span> </figcaption>
                             </figure>
                         </div>
                         <div class="wm-testimonial-slider-wrap">
-                            <p>I chose them because it gave me flexibility. I was working full-time at the same time I was studying, so the OU gave me that flexibility. Also my Dad, I’m Danish of origin.</p>
+                            <p>Je les ai choisis parce que cela me donnait de la flexibilité. Je travaillais à plein temps en même temps que j'étudiais, donc l'OU m'a donné cette flexibilité. Aussi, mon père, je suis d'origine danoise.</p>
                             <figure>
                                 <a href="#" class="wm-testimonial-thumb"><img src="extra-images/testimonial-thumb-1.png" alt=""></a>
-                                <figcaption> <h5><a href="#">Priya E. Abraham</a></h5> <span>Paris, France</span> </figcaption>
+                                <figcaption> <h5><a href="#">Alami yassine </a></h5> <span>el hay el hassani, casablanca</span> </figcaption>
                             </figure>
                         </div>
                         <div class="wm-testimonial-slider-wrap">
-                            <p>After completing the MBA study, I had the opportunity to join one of the leading business schools in the UK in the role of faculty member and senior consultant. I suppose without the MBA it would have been difficult to make that career step. The biggest challenge in studying with them.</p>
+                            <p>Après avoir terminé mes études de MBA, j'ai eu l'opportunité de rejoindre l'une des principales écoles de commerce au Royaume-Uni en tant que membre du corps professoral et consultant principal. Je suppose qu'il aurait été difficile de faire ce pas dans ma carrière sans le MBA. Le plus grand défi en étudiant avec eux.</p>
                             <figure>
                                 <a href="#" class="wm-testimonial-thumb"><img src="extra-images/testimonial-thumb-2.png" alt=""></a>
                                 <figcaption> <h5><a href="#">Priya E. Abraham</a></h5> <span>Paris, France</span> </figcaption>
@@ -420,6 +420,7 @@
                         </div>
                     </div>
                 </div>
+                
 
             </div>
         </div>
@@ -432,7 +433,7 @@
         <div class="container">
             <div class="row">
                 
-                <div class="col-md-5">
+                {{-- <div class="col-md-5">
                     <div class="wm-history-list">
                         <h2>Our History</h2>
                         <ul>
@@ -470,7 +471,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-md-7">
                     <div class="wm-subscribe-form">
                         <h2>Still not convinced? We can help you!</h2>
@@ -569,7 +570,7 @@
             <div class="row">
                 
                 <div class="col-md-12">
-                    <div class="wm-simple-section-title wm-partners-title"> <h2>University <span>Partners</span></h2> </div>
+                    <div class="wm-simple-section-title wm-partners-title"> <h2> Nos    <span> Collaborateurs </span></h2> </div>
                     <div class="wm-partners-slider gallery">
                         <div class="wm-partners-layer"> <a title="" data-rel="prettyPhoto[gallery1]" href="extra-images/university-partners-1.png"> <img src="extra-images/university-partners-1.png" alt=""> </a> </div>
                         <div class="wm-partners-layer"> <a title="" data-rel="prettyPhoto[gallery1]" href="extra-images/university-partners-2.png"> <img src="extra-images/university-partners-2.png" alt=""> </a> </div>
@@ -597,8 +598,8 @@
 
                       <!-- Nav tabs -->
                       <ul class="nav nav-tabs">
-                        <li class="active"><a href="#home" aria-controls="home" data-toggle="tab">Contact Us</a></li>
-                        <li><a href="#profile" aria-controls="profile" data-toggle="tab">Information Details</a></li>
+                        <li class="active"><a href="#home" aria-controls="home" data-toggle="tab">Contacter nous</a></li>
+                        <li><a href="#profile" aria-controls="profile" data-toggle="tab">Plus de  Details</a></li>
                       </ul>
 
                       <!-- Tab panes -->
@@ -608,7 +609,7 @@
                                 <div class="col-md-4"> <div class="wm-map"> <div id="map"></div> </div> </div>
                                 <div class="col-md-8">
                                     <div class="wm-contact-form">
-                                        <span>Talk To Us Today</span>
+                                        <span>Communiquer avec nous dés maintenant</span>
                                         <form>
                                             <ul>
                                                 <li>
