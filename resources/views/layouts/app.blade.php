@@ -236,91 +236,91 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
-
+    
                     <div class="wm-modallogin-form wm-login-popup">
-                        <span class="wm-color">Login to Your Account</span>
+                        <span class="wm-color">Connectez-vous à votre compte</span>
                         <form>
                             <ul>
-                                <li> <input type="text" value="Your Username"
-                                        onblur="if(this.value == '') { this.value ='Your Username'; }"
-                                        onfocus="if(this.value =='Your Username') { this.value = ''; }"> </li>
-                                <li> <input type="password" value="password"
-                                        onblur="if(this.value == '') { this.value ='password'; }"
-                                        onfocus="if(this.value =='password') { this.value = ''; }"> </li>
-                                <li> <a href="#" class="wm-forgot-btn">Forgot Password?</a> </li>
-                                <li> <input type="submit" value="Sign In"> </li>
+                                <li> <input type="text" value="Votre Nom d'utilisateur"
+                                        onblur="if(this.value == '') { this.value ='Votre Nom d'utilisateur'; }"
+                                        onfocus="if(this.value =='Votre Nom d'utilisateur') { this.value = ''; }"> </li>
+                                <li> <input type="password" value="mot de passe"
+                                        onblur="if(this.value == '') { this.value ='mot de passe'; }"
+                                        onfocus="if(this.value =='mot de passe') { this.value = ''; }"> </li>
+                                <li> <a href="#" class="wm-forgot-btn">Mot de passe oublié ?</a> </li>
+                                <li> <input type="submit" value="Se connecter"> </li>
                             </ul>
                         </form>
-                        <span class="wm-color">or try our socials</span>
+                        <span class="wm-color">ou essayez nos réseaux sociaux</span>
                         <ul class="wm-login-social-media">
                             <li><a href="#"><i class="wmicon-social5"></i> Facebook</a></li>
-                            <li class="wm-twitter-color"><a href="#"><i class="wmicon-social4"></i> twitter</a>
+                            <li class="wm-twitter-color"><a href="#"><i class="wmicon-social4"></i> Twitter</a>
                             </li>
                             <li class="wm-googleplus-color"><a href="#"><i
                                         class="fa fa-google-plus-square"></i> Google+</a></li>
                         </ul>
-                        <p>Not a member yet? <a href="#">Sign-up Now!</a></p>
+                        <p>Pas encore membre ? <a href="#">Inscrivez-vous maintenant !</a></p>
                     </div>
                     <div class="wm-modallogin-form wm-register-popup">
-                        <span class="wm-color">create Your Account today</span>
+                        <span class="wm-color">Créez votre compte aujourd'hui</span>
                         <form>
                             <ul>
-                                <li> <input type="text" value="Your Username"
-                                        onblur="if(this.value == '') { this.value ='Your Username'; }"
-                                        onfocus="if(this.value =='Your Username') { this.value = ''; }"> </li>
-                                <li> <input type="text" value="Your E-mail"
-                                        onblur="if(this.value == '') { this.value ='Your E-mail'; }"
-                                        onfocus="if(this.value =='Your E-mail') { this.value = ''; }"> </li>
-                                <li> <input type="password" value="password"
-                                        onblur="if(this.value == '') { this.value ='password'; }"
-                                        onfocus="if(this.value =='password') { this.value = ''; }"> </li>
-                                <li> <input type="text" value="Confirm Password"
-                                        onblur="if(this.value == '') { this.value ='Confirm Password'; }"
-                                        onfocus="if(this.value =='Confirm Password') { this.value = ''; }"> </li>
-                                <li> <input type="submit" value="Create Account"> </li>
+                                <li> <input type="text" value="Votre Nom d'utilisateur"
+                                        onblur="if(this.value == '') { this.value ='Votre Nom d'utilisateur'; }"
+                                        onfocus="if(this.value =='Votre Nom d'utilisateur') { this.value = ''; }"> </li>
+                                <li> <input type="text" value="Votre Adresse E-mail"
+                                        onblur="if(this.value == '') { this.value ='Votre Adresse E-mail'; }"
+                                        onfocus="if(this.value =='Votre Adresse E-mail') { this.value = ''; }"> </li>
+                                <li> <input type="password" value="mot de passe"
+                                        onblur="if(this.value == '') { this.value ='mot de passe'; }"
+                                        onfocus="if(this.value =='mot de passe') { this.value = ''; }"> </li>
+                                <li> <input type="text" value="Confirmez le mot de passe"
+                                        onblur="if(this.value == '') { this.value ='Confirmez le mot de passe'; }"
+                                        onfocus="if(this.value =='Confirmez le mot de passe') { this.value = ''; }"> </li>
+                                <li> <input type="submit" value="Créer un compte"> </li>
                             </ul>
                         </form>
-                        <span class="wm-color">or signup with your socials:</span>
+                        <span class="wm-color">ou inscrivez-vous avec vos réseaux sociaux :</span>
                         <ul class="wm-login-social-media">
                             <li><a href="#"><i class="wmicon-social5"></i> Facebook</a></li>
-                            <li class="wm-twitter-color"><a href="#"><i class="wmicon-social4"></i> twitter</a>
+                            <li class="wm-twitter-color"><a href="#"><i class="wmicon-social4"></i> Twitter</a>
                             </li>
                             <li class="wm-googleplus-color"><a href="#"><i
                                         class="fa fa-google-plus-square"></i> Google+</a></li>
                         </ul>
-                        <p>Already a member? <a href="#">Sign-in Here!</a></p>
+                        <p>Déjà membre ? <a href="#">Connectez-vous ici !</a></p>
                     </div>
-
+    
                 </div>
             </div>
             <div class="clearfix"></div>
         </div>
     </div>
+    
     <!-- ModalLogin Box -->
-
     <div class="modal fade" id="ModalSearch" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
-
+    
                     <div class="wm-modallogin-form">
-                        <span class="wm-color">Search Your KeyWord</span>
+                        <span class="wm-color">Recherchez votre mot-clé</span>
                         <form>
                             <ul>
-                                <li> <input type="text" value="Keywords..."
-                                        onblur="if(this.value == '') { this.value ='Keywords...'; }"
-                                        onfocus="if(this.value =='Keywords...') { this.value = ''; }"> </li>
-                                <li> <input type="submit" value="Search"> </li>
+                                <li> <input type="text" value="Mots-clés..."
+                                        onblur="if(this.value == '') { this.value ='Mots-clés...'; }"
+                                        onfocus="if(this.value =='Mots-clés...') { this.value = ''; }"> </li>
+                                <li> <input type="submit" value="Rechercher"> </li>
                             </ul>
                         </form>
                     </div>
-
+    
                 </div>
             </div>
             <div class="clearfix"></div>
         </div>
     </div>
-
+    
     <script type="text/javascript" src="{{ asset('script/jquery.js') }}"></script>
     <script type="text/javascript" src="{{ asset('script/modernizr.js') }}"></script>
     <script type="text/javascript" src="{{ asset('script/bootstrap.min.js') }}"></script>
