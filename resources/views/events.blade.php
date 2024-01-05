@@ -11,9 +11,8 @@
                 <div class="col-md-12">
                     <div class="wm-filterable-link">
                         <ul>
-                            <li><a href="#" data-filter="*" class="active">Latest Events</a></li>
-                            <li><a href="#" data-filter=".php">Upcoming Events</a></li>
-                            <li><a href="#" data-filter=".wordpress">Expired Events</a></li>
+                            <li><a href="#" data-filter="*" class="active">nos dérniers évenements</a></li>
+                            <li><a href="#" data-filter=".php">nos futurs évenements</a></li>
                         </ul>
                     </div>
                     <div class="wm-event wm-latest-event wm-filter-event">

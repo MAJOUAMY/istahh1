@@ -36,34 +36,30 @@
                 
                 <div class="col-md-4">
                     <div class="wm-search-course">
-                        <h3 class="wm-short-title wm-color">Find Your Course</h3>
-                        <p>Fill in the form below to find your course:</p>
+                        <h3 class="wm-short-title wm-color">Trouve n'importe quel module   </h3>
                         <form>
                             <ul>
                                 <li>
                                     <div class="wm-radio">
-                                        <div class="wm-radio-partition">
-                                            <input id="male" type="radio" name="gender" value="male">
-                                            <label for="male">by ID</label>
-                                        </div>
+                                       
                                         <div class="wm-radio-partition">
                                             <input id="female" type="radio" name="gender" value="female">
-                                            <label for="female">by name</label>
+                                            <label for="female">par nom </label>
                                         </div>
                                     </div>
                                 </li>
-                                <li> <input type="text" value="Course Name" onblur="if(this.value == '') { this.value ='Course Name'; }" onfocus="if(this.value =='Course Name') { this.value = ''; }"> <i class="wmicon-search"></i> </li>
+                                <li> <input type="text" value="nom du module " onblur="if(this.value == '') { this.value ='Course Name'; }" onfocus="if(this.value =='Course Name') { this.value = ''; }"> <i class="wmicon-search"></i> </li>
                                 <li>
                                     <div class="wm-apply-select">
                                         <select>
-                                            <option>Category</option>
-                                            <option>Category</option>
-                                            <option>Category</option>
-                                            <option>Category</option>
+                                            <option>Categorie du module</option>
+                                            <option>Dévelopement digital</option>
+                                            <option>Infrastructure digitale</option>
+                                            <option>Commerce</option>
                                         </select>
                                     </div>
                                 </li>
-                                <li> <input type="submit" value="Search course"> </li>
+                                <li> <input type="submit" value="chercher module "> </li>
                             </ul>
                         </form>
                     </div>
@@ -134,78 +130,62 @@
             <div class="row">
                 
                 <div class="col-md-12">
-                    <div class="wm-fancy-title"> <h2>Popular <span>Courses</span></h2> </div>
+                    <div class="wm-fancy-title"> <h2>Les modules  <span>Populaires</span></h2> </div>
                     <div class="wm-courses wm-courses-popular">
                         <ul class="row">
                             <li class="col-md-3">
                                 <div class="wm-courses-popular-wrap">
-                                    <figure> <a href="#"><img src="extra-images/papular-courses-1.jpg" alt=""> <span class="wm-popular-hover"> <small>see course</small> </span> </a>
+                                    <figure> <a href="#"><img src="extra-images/papular-courses-1.jpg" alt=""> <span class="wm-popular-hover"> <small>voir module </small> </span> </a>
                                         <figcaption>
                                             <img src="extra-images/papular-courses-thumb-1.jpg" alt="">
-                                            <h6><a href="#">Shelly T. Forrester</a></h6>
+                                            <h6><a href="#">Formateur 1</a></h6>
                                         </figcaption>
                                     </figure>
                                     <div class="wm-popular-courses-text">
-                                        <h6><a href="#">Advanced Architectural Research</a></h6>
-                                        <div class="wm-courses-price"> <span>$32</span> </div>
-                                        <ul>
-                                            <li><a href="#" class="wm-color"><i class="wmicon-social7"></i> 342</a></li>
-                                            <li><a href="#" class="wm-color"><i class="wmicon-social6"></i> 10</a></li>
-                                        </ul>
+                                        <h6><a href="#">Module 1  </a></h6>
+                                      
                                     </div>
                                 </div>
                             </li>
                             <li class="col-md-3">
                                 <div class="wm-courses-popular-wrap">
-                                    <figure> <a href="#"><img src="extra-images/papular-courses-2.jpg" alt=""> <span class="wm-popular-hover"> <small>see course</small> </span> </a>
+                                    <figure> <a href="#"><img src="extra-images/papular-courses-2.jpg" alt=""> <span class="wm-popular-hover"> <small>voir module </small> </span> </a>
                                         <figcaption>
                                             <img src="extra-images/papular-courses-thumb-2.jpg" alt="">
-                                            <h6><a href="#">Sam K. Harrington</a></h6>
+                                            <h6><a href="#"> Formateur 2</a></h6>
                                         </figcaption>
                                     </figure>
                                     <div class="wm-popular-courses-text">
-                                        <h6><a href="#">Advanced Landscape & Urbanism</a></h6>
-                                        <div class="wm-courses-price"> <span>Free</span> </div>
-                                        <ul>
-                                            <li><a href="#" class="wm-color"><i class="wmicon-social7"></i> 438</a></li>
-                                            <li><a href="#" class="wm-color"><i class="wmicon-social6"></i> 28</a></li>
-                                        </ul>
+                                        <h6><a href="#">Module 2 </a></h6>
+                                       
                                     </div>
                                 </div>
                             </li>
                             <li class="col-md-3">
                                 <div class="wm-courses-popular-wrap">
-                                    <figure> <a href="#"><img src="extra-images/papular-courses-3.jpg" alt=""> <span class="wm-popular-hover"> <small>see course</small> </span> </a>
+                                    <figure> <a href="#"><img src="extra-images/papular-courses-3.jpg" alt=""> <span class="wm-popular-hover"> <small>voir module </small> </span> </a>
                                         <figcaption>
                                             <img src="extra-images/papular-courses-thumb-3.jpg" alt="">
-                                            <h6><a href="#">Sara A. Shirley</a></h6>
+                                            <h6><a href="#"> Formateur 3</a></h6>
                                         </figcaption>
                                     </figure>
                                     <div class="wm-popular-courses-text">
-                                        <h6><a href="#">Transdisciplinary Design</a></h6>
-                                        <div class="wm-courses-price"> <span>$79</span> </div>
-                                        <ul>
-                                            <li><a href="#" class="wm-color"><i class="wmicon-social7"></i> 309</a></li>
-                                            <li><a href="#" class="wm-color"><i class="wmicon-social6"></i> 19</a></li>
-                                        </ul>
+                                        <h6><a href="#">Module 3 </a></h6>
+                                       
                                     </div>
                                 </div>
                             </li>
                             <li class="col-md-3">
                                 <div class="wm-courses-popular-wrap">
-                                    <figure> <a href="#"><img src="extra-images/papular-courses-4.jpg" alt=""> <span class="wm-popular-hover"> <small>see course</small> </span> </a>
+                                    <figure> <a href="#"><img src="extra-images/papular-courses-4.jpg" alt=""> <span class="wm-popular-hover"> <small>voir module </small> </span> </a>
                                         <figcaption>
                                             <img src="extra-images/papular-courses-thumb-4.jpg" alt="">
-                                            <h6><a href="#">Julius M. Lepage</a></h6>
+                                            <h6><a href="#">Formateur 4   </a></h6>
                                         </figcaption>
                                     </figure>
                                     <div class="wm-popular-courses-text">
-                                        <h6><a href="#">Financial Information Systems</a></h6>
-                                        <div class="wm-courses-price"> <span>$50</span> </div>
-                                        <ul>
-                                            <li><a href="#" class="wm-color"><i class="wmicon-social7"></i> 298</a></li>
-                                            <li><a href="#" class="wm-color"><i class="wmicon-social6"></i> 11</a></li>
-                                        </ul>
+                                        <h6><a href="#"> Module 4 </a></h6>
+                                       
                                     </div>
                                 </div>
                             </li>
@@ -225,19 +205,19 @@
                 
                 <div class="col-md-8">
                     <div class="whychooseus-list">
-                        <div class="wm-fancy-title"> <h2>Why <span>Choose Us</span></h2> </div>
+                        <div class="wm-fancy-title"> <h2>Pourquoi <span>nous choisir </span></h2> </div>
                         <ul class="row">
                             <li class="col-md-4">
                                 <span>209</span>
-                                <h6>of our trainees have got a prestigious job</h6>
+                                <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis.</h6>
                             </li>
                             <li class="col-md-4">
                                 <span>91%</span>
-                                <h6>students have established successful business</h6>
+                                <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas. </h6>
                             </li>
                             <li class="col-md-4">
                                 <span>35%</span>
-                                <h6>have already earned their first million</h6>
+                                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe.</h6>
                             </li>
                         </ul>
                     </div>
@@ -245,9 +225,8 @@
                 <div class="col-md-4">
                     <div class="wm-questions-studying">
                         <img src="extra-images/ask-questoin-bg.png" alt="">
-                        <h3 class="wm-color">Questions about studying with us?</h3>
-                        <p>We have a team of student advisers & officers to answer any questions:</p>
-                        <a class="wm-banner-btn" href="#">ask us now</a>
+                        <h3 class="wm-color">Vous avez des questions ?  </h3>
+                        <a class="wm-banner-btn" href="#">Poser les ici </a>
                     </div>
                 </div>
 

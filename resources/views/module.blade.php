@@ -13,34 +13,31 @@
                 
                 <aside class="col-md-3">
                     <div class="widget wm-search-course">
-                        <h3 class="wm-short-title wm-color">Find Your Course</h3>
-                        <p>Find your course here:</p>
+                        <h3 class="wm-short-title wm-color">Trouve Ton module souhaité</h3>
+                        <p>cherche ton module par nom   :</p>
                         <form>
                             <ul>
                                 <li>
                                     <div class="wm-radio">
-                                        <div class="wm-radio-partition">
-                                            <input id="male" type="radio" name="gender" value="male">
-                                            <label for="male">by ID</label>
-                                        </div>
+                                        
                                         <div class="wm-radio-partition">
                                             <input id="female" type="radio" name="gender" value="female">
-                                            <label for="female">by name</label>
+                                            <label for="female">Par nom</label>
                                         </div>
                                     </div>
                                 </li>
-                                <li> <input type="text" value="Course Name" onblur="if(this.value == '') { this.value ='Course Name'; }" onfocus="if(this.value =='Course Name') { this.value = ''; }"> <i class="wmicon-search"></i> </li>
+                                <li> <input type="text" value="Nom du module" onblur="if(this.value == '') { this.value ='Course Name'; }" onfocus="if(this.value =='Course Name') { this.value = ''; }"> <i class="wmicon-search"></i> </li>
                                 <li>
                                     <div class="wm-apply-select">
-                                        <select>
-                                            <option>Category</option>
-                                            <option>Category</option>
-                                            <option>Category</option>
-                                            <option>Category</option>
+                                        <select >
+                                            <option>Categorie du module</option>
+                                            <option>Dévelopement digital</option>
+                                            <option>Infrastructure digitale</option>
+                                            <option>Commerce</option>
                                         </select>
                                     </div>
                                 </li>
-                                <li> <input type="submit" value="Search course"> </li>
+                                <li> <input type="submit" value="chercher maintenant "> </li>
                             </ul>
                         </form>
                     </div>
