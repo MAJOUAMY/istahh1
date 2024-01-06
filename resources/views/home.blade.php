@@ -53,9 +53,9 @@
                                     <div class="wm-apply-select">
                                         <select>
                                             <option>Categorie du module</option>
-                                            <option>Dévelopement digital</option>
-                                            <option>Infrastructure digitale</option>
-                                            <option>Commerce</option>
+                                            <option>Dévelopement Digital</option>
+                                            <option>Infrastructure Digital</option>
+                                            <option>Gestion et Commerce</option>
                                         </select>
                                     </div>
                                 </li>
