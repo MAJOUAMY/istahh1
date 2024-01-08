@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Inertia\Inertia;
+Route::get('/admin',function(){
+    return Inertia::render('Admin');
+});
 Route::get('/', function () {
     return view('home');
 })->name("home");
@@ -27,6 +30,8 @@ Route::get('/about', function () {
 Route::get('/faq', function () {
     return view('faq');
 })->name("faq");
+
+
 
 
 // formation
