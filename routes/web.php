@@ -1,38 +1,31 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
-Route::get('/admin',function(){
-    return Inertia::render('Admin');
-});
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
+|
+*/
+
 Route::get('/', function () {
-    return view('home');
-})->name("home");
-Route::get('/contact', function () {
-    return view('contact');
-})->name("contact");
+    return view('welcome');
+});
 
-Route::get('/module', function () {
-    return view('module');
-})->name("module");
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/evenements', function () {
-    return view('events');
-})->name("events");
-Route::get('/blog', function () {
-    return view('blog');
-})->name("blog");
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
 
-Route::get('/about', function () {
-    return view('about');
-})->name("about");
-
-Route::get('/faq', function () {
-    return view('faq');
-})->name("faq");
-
-
-
-
-// formation
-
+require __DIR__.'/auth.php';
